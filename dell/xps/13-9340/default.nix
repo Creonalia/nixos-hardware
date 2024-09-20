@@ -3,7 +3,7 @@
     ../../../common/cpu/intel
     ../../../common/pc/laptop
     ../../../common/pc/ssd
-		../../../common/gpu/intel/meteor-lake
+    ../../../common/gpu/intel/meteor-lake
   ];
 
   # Allows for updating firmware via `fwupdmgr`.
@@ -12,5 +12,5 @@
   # This will save you money and possibly your life!
   services.thermald.enable = mkDefault true;
 
-	hardware.intelgpu.deviceID = "7d55";
+  hardware.intelgpu.deviceID = "7d55";
 }
